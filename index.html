@@ -41,8 +41,8 @@
 <div class="container">
   <iframe
     id="video"
-    src="https://www.youtube.com/embed/xg-e5QstxSM?autoplay=1&loop=1&playlist=xg-e5QstxSM&controls=0&modestbranding=1&rel=0&playsinline=1"
-    allow="autoplay; fullscreen"
+    src="https://www.youtube.com/embed/xg-e5QstxSM?autoplay=1&mute=0&loop=1&playlist=xg-e5QstxSM&controls=1&modestbranding=1&rel=0&playsinline=1"
+    allow="autoplay; fullscreen; encrypted-media"
     allowfullscreen>
   </iframe>
 </div>
@@ -51,7 +51,7 @@
   window.addEventListener("load", () => {
     setTimeout(() => {
       document.getElementById("video").classList.add("fade-in");
-    }, 300);
+    }, 300); // slight delay for smoother feel
   });
 </script>
 
